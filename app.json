@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "MessageApp",
-    "slug": "MessageApp",
+    "name": "messaging",
+    "platforms": ["ios", "android", "web"],
+    "androidStatusBar": { 
+      "barStyle": "dark-content", 
+      "backgroundColor": "#Ff0000"
+    },
+    "slug": "messaging",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
